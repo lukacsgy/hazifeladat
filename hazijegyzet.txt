@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title>Hypertext HTML formatting example</title>
 	</head>
@@ -23,19 +23,19 @@
 
 		<h2>Some anchors</h2>
 
-			<p>Anchors come in two forms: whole nodes or parts of nodes. The line mode browser can't currently (Nov 91) jump to a part of a node: it 						always jumps to the top.</p>
+			<p>Anchors come in two forms: whole nodes or parts of nodes. The line mode browser can't currently (Nov 91) jump to a part of a node: it 							always jumps to the top.</p>
 
 		<h3>Leading to whole nodes</h3>
 
-			<p>Here is an anchor which leads to the <a href = "http://crnvmc.cern.ch/FIND/PUB.P.HELPCMS.FIND(X,G)">VM FIND command.</a> Note the 								nested highlighting (hp2) within the anchor. If you want to click on <a href="http://info.cern.ch/hypertext/WWW/LineMode/Defaults/default.html">this,<a/> 
+			<p>Here is an anchor which leads to the <a href = "http://crnvmc.cern.ch/FIND/PUB.P.HELPCMS.FIND(X,G)">VM FIND command.</a> Note the 								nested highlighting (hp2) within the anchor. If you want to click on <a href="http://info.cern.ch/hypertext/WWW/LineMode/Defaults/default.html">this,</a> 
 			you will go to the system default page.</p>
 		
 		<h3>Leading to anchors within nodes</h3>
 
-			<p>Now <a href ="http://info.cern.ch/hypertext/WWW/Test/test.html#2">THIS</a> leads to anchor #2 in this file, and if you want to click on 
-			<a href ="http://info.cern.ch/hypertext/WWW/LineMode/Defaults/default.html#2">THIS,<a/> you should go to the system default page with anchor #2 selected. Now the 			word "destination" is a named destination anchor, connected to the word <a href="http://info.cern.ch/hypertext/WWW/Test/test.html#dest1">"source"</a> . Clicking 			on the destination shouldn't do anything. Selecting the source should lead to the destination.</p>
+			<p>Now <a href ="http://info.cern.ch/hypertext/WWW/Test/test.html#2">THIS</a> leads to anchor #2 in this file, and if you want to click on							<a href ="http://info.cern.ch/hypertext/WWW/LineMode/Defaults/default.html#2">THIS,</a> you should go to the system default page with anchor #2 selected. Now the 			word "destination" is a named destination anchor, connected to the word <a href="http://info.cern.ch/hypertext/WWW/Test/test.html#dest1">"source"</a> . Clicking 				on the destination shouldn't do anything. Selecting the source should lead to the destination.</p>
 
-			<p>Now let's go through the limited set of markup tags which we accept. The title, "Hypertext HTML formatting example" was between TITLE tags. "Test Dataset" at 			the top of this page was a Level One Heading (H1). The quick brown fox jumps over the lazy dog. In Hertford, Hereford and hampshire, hurricanes hardly 			happen.</p>
+			<p>Now let's go through the limited set of markup tags which we accept. The title, "Hypertext HTML formatting example" was between TITLE tags. "Test Dataset" at 				the top of this page was a Level One Heading (H1). The quick brown fox jumps over the lazy dog. In Hertford, Hereford and hampshire, hurricanes hardly 						happen.</p>
+
 		<h2>Level two heading</h2>
 
 			<p>Here is some text which follows the heading. The quick brown fox jumps over the lazy dog. In Hertford, Hereford and hampshire, hurricanes hardly happen.</p>
